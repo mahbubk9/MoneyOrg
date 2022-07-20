@@ -11,41 +11,41 @@ build_property.EnableTrimAnalyzer = true
 build_property.IncludeAllContentForSelfExtract = 
 build_property.RootNamespace = MoneyOrg.Client
 build_property.RootNamespace = MoneyOrg.Client
-build_property.ProjectDir = C:\Users\Mahbub\Documents\code\C#\MoneyOrg\Client\
+build_property.ProjectDir = c:\Users\Mahbub\Documents\code\C#\MoneyOrg\Client\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Mahbub\Documents\code\C#\MoneyOrg\Client
+build_property.MSBuildProjectDirectory = c:\Users\Mahbub\Documents\code\C#\MoneyOrg\Client
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Mahbub/Documents/code/C\#/MoneyOrg/Client/App.razor]
+[c:/Users/Mahbub/Documents/code/C\#/MoneyOrg/Client/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mahbub/Documents/code/C\#/MoneyOrg/Client/Pages/Counter.razor]
+[c:/Users/Mahbub/Documents/code/C\#/MoneyOrg/Client/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mahbub/Documents/code/C\#/MoneyOrg/Client/Pages/FetchData.razor]
+[c:/Users/Mahbub/Documents/code/C\#/MoneyOrg/Client/Pages/FetchData.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mahbub/Documents/code/C\#/MoneyOrg/Client/Pages/Index.razor]
+[c:/Users/Mahbub/Documents/code/C\#/MoneyOrg/Client/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mahbub/Documents/code/C\#/MoneyOrg/Client/Shared/SurveyPrompt.razor]
+[c:/Users/Mahbub/Documents/code/C\#/MoneyOrg/Client/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mahbub/Documents/code/C\#/MoneyOrg/Client/_Imports.razor]
+[c:/Users/Mahbub/Documents/code/C\#/MoneyOrg/Client/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mahbub/Documents/code/C\#/MoneyOrg/Client/Shared/MainLayout.razor]
+[c:/Users/Mahbub/Documents/code/C\#/MoneyOrg/Client/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-wugs62e9pk
 
-[C:/Users/Mahbub/Documents/code/C\#/MoneyOrg/Client/Shared/NavMenu.razor]
+[c:/Users/Mahbub/Documents/code/C\#/MoneyOrg/Client/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-oyjcvvrem3
