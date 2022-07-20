@@ -1,0 +1,12 @@
+C:\Users\Mahbub\Documents\code\C#\MoneyOrg\Shared\bin\Debug\net6.0\MoneyOrg.Shared.deps.json
+C:\Users\Mahbub\Documents\code\C#\MoneyOrg\Shared\bin\Debug\net6.0\MoneyOrg.Shared.dll
+C:\Users\Mahbub\Documents\code\C#\MoneyOrg\Shared\bin\Debug\net6.0\MoneyOrg.Shared.pdb
+C:\Users\Mahbub\Documents\code\C#\MoneyOrg\Shared\obj\Debug\net6.0\MoneyOrg.Shared.csproj.AssemblyReference.cache
+C:\Users\Mahbub\Documents\code\C#\MoneyOrg\Shared\obj\Debug\net6.0\MoneyOrg.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mahbub\Documents\code\C#\MoneyOrg\Shared\obj\Debug\net6.0\MoneyOrg.Shared.AssemblyInfoInputs.cache
+C:\Users\Mahbub\Documents\code\C#\MoneyOrg\Shared\obj\Debug\net6.0\MoneyOrg.Shared.AssemblyInfo.cs
+C:\Users\Mahbub\Documents\code\C#\MoneyOrg\Shared\obj\Debug\net6.0\MoneyOrg.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Mahbub\Documents\code\C#\MoneyOrg\Shared\obj\Debug\net6.0\MoneyOrg.Shared.dll
+C:\Users\Mahbub\Documents\code\C#\MoneyOrg\Shared\obj\Debug\net6.0\refint\MoneyOrg.Shared.dll
+C:\Users\Mahbub\Documents\code\C#\MoneyOrg\Shared\obj\Debug\net6.0\MoneyOrg.Shared.pdb
+C:\Users\Mahbub\Documents\code\C#\MoneyOrg\Shared\obj\Debug\net6.0\ref\MoneyOrg.Shared.dll
