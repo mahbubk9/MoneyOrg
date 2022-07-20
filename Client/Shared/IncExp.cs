@@ -11,9 +11,11 @@
 
         public DateTime Time { get; set; }
 
+        public List<IncExp> IncExpList { get; set; }
+
         public IncExp(int id, string type, string subType, double amount, double balance, DateTime time)
         {
-            Id= id;
+            Id = id;
             Type = type;
             SubType = subType;
             Amount = amount;
