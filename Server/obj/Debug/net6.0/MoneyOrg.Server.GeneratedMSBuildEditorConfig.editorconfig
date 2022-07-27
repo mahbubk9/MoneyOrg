@@ -18,3 +18,27 @@ build_property._RazorSourceGeneratorDebug =
 [C:/Users/Mahbub/Documents/code/C\#/MoneyOrg/Server/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mahbub/Documents/code/C\#/MoneyOrg/Server/Views/IncExps/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5jRXhwc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mahbub/Documents/code/C\#/MoneyOrg/Server/Views/IncExps/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5jRXhwc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mahbub/Documents/code/C\#/MoneyOrg/Server/Views/IncExps/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5jRXhwc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mahbub/Documents/code/C\#/MoneyOrg/Server/Views/IncExps/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5jRXhwc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mahbub/Documents/code/C\#/MoneyOrg/Server/Views/IncExps/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5jRXhwc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mahbub/Documents/code/C\#/MoneyOrg/Server/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
