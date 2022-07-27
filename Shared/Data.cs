@@ -10,14 +10,34 @@ using static MoneyOrg.Client.Shared.IncExp;
 namespace MoneyOrg.Shared
 {
     internal class Data
-    {
-        public List<IncExp>? Lst { get; set; }
-        public double Bal { get; set; }
 
-        public Data(List<IncExp>? lst)
+    {
+
+        public List<IncExp> DataList = new List<IncExp>();
+        public void AddToList(IncExp incexp)
         {
-            Lst = lst;
-            Bal = 0.0;
+            DataList.Add(incexp);
+
         }
+
+        public List<IncExp> getDataList()
+        {
+            return DataList;
+        }
+
+        public double getBalance(List<IncExp> lst)
+        {
+            double balance = 0.0;
+            for (int i = 0; i < lst.Count; i++)
+            {
+                balance+=lst[i].Amount;
+            }
+            return balance;
+        }
+        //Dictionary<List<IncExp>, double> Dt = new Dictionary<List<IncExp>, double>();
+
+
+
+
     }
 }
