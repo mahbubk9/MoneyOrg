@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "cQKzN+D4/oBhkQq2MGo/rILGH2ezbD+z9oIAUYlmfQhqSpoD+aLGS1/KRB2Rsn6pjdS3uAosKUtsGjRKhY5Q4Q==",
+  "dgSpecHash": "OrJtBaO2fIN4IsliQBf/LAcdNfRRr8BkO7LAcThXUD4D4gvNmZibuLv0ATRHtWM8Cq5xk83Xxi6fu1gpSrRL5Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\Mahbub\\Documents\\code\\C#\\MoneyOrg\\Client\\MoneyOrg.Client.csproj",
   "expectedPackageFiles": [
@@ -33,7 +33,7 @@
     "C:\\Users\\Mahbub\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\Mahbub\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
     "C:\\Users\\Mahbub\\.nuget\\packages\\system.text.json\\6.0.0\\system.text.json.6.0.0.nupkg.sha512",
-    "C:\\Users\\Mahbub\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.7\\microsoft.netcore.app.runtime.mono.browser-wasm.6.0.7.nupkg.sha512"
+    "C:\\Users\\Mahbub\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.6\\microsoft.netcore.app.runtime.mono.browser-wasm.6.0.6.nupkg.sha512"
   ],
   "logs": []
 }
