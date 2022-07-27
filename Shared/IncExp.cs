@@ -9,7 +9,7 @@
 
         public double Balance { get; set; }
 
-        public double PrevBalance=0.0;
+        public double PrevBalance { get; set; }
 
         public DateTime Time { get; set; }
 

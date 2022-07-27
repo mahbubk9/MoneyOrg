@@ -196,15 +196,15 @@
       "mscorlib.dll": "sha256-zNVxhWqav+Wvwc8mjOqsl40bhVLw78MhgITrphqoROc=",
       "netstandard.dll": "sha256-yQ7oiuGXRX47V21EibXbfTPXOkJGOgCJhW9YF6e4hw0=",
       "System.Private.CoreLib.dll": "sha256-Ug2\/rd8Ck7Dls6uaZNmrqc7EvE8f41iX96qdX57LStQ=",
-      "MoneyOrg.Shared.dll": "sha256-MME6hb8KQ9u1B5aEgOjcmpKQf1FojQTjip+M2wvIxfs=",
-      "MoneyOrg.Client.dll": "sha256-Dl14zttFvdz15T0QQ0nvFEClrVOfkE\/n9SkcCA19ao0="
+      "MoneyOrg.Shared.dll": "sha256-N2s5guJszMjzq+IfpazcT1ppJmbHZPF5hrDQEcN90dI=",
+      "MoneyOrg.Client.dll": "sha256-hbdO8qsd6UPlFHW6L8j6PEhM66lZQySItSRHA+JdhrA="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "MoneyOrg.Shared.pdb": "sha256-NrXXoWydfwilM\/zkm2aRZVB18H0eLTOy\/SuqF8HHKrs=",
-      "MoneyOrg.Client.pdb": "sha256-3tMxFT3v4jxCODRcp\/ypp69mR3Xp\/\/r2o05iRHnswB0="
+      "MoneyOrg.Shared.pdb": "sha256-v32fs987wJOVoI88ZmikwIY3ALW6ivG+2SkboE020Fc=",
+      "MoneyOrg.Client.pdb": "sha256-DAJvT\/ATVJkdMctE+m0yEcBMzSMstPUanXkm5M2QvPo="
     },
     "runtime": {
       "dotnet.6.0.6.ymqbq33quj.js": "sha256-zJXgw\/tAzTVOXksPhtpZVT12vxHC7S9mQyBRM36dwD0=",
