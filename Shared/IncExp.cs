@@ -2,7 +2,7 @@
 {
     public class IncExp
     {
-        public int Id { get; }
+        public int Id { get; set; }
         public string Type { get; set; }
         public string SubType { get; set; }
         public double Amount { get; set; }
@@ -13,24 +13,38 @@
 
         public DateTime Time { get; set; }
 
+        /*public enum Type
+        {
+            Employment,
+            SelfEmployment,
+            Business,
+            Investment,
+            Loan,
+            Grant,
+            Gift
+
+        }
+        */
 
 
 
 
-        public IncExp(int id, string type, string subType,double PrevBalance, double amount, DateTime time)
+        public IncExp( int id ,DateTime time, string type, string subType, double prevBalance, double amount)
         {
             Id = id;
+            Time = time;
             Type = type;
             SubType = subType;
             Amount = amount;
-            Time = time;
+            PrevBalance = prevBalance ;
+
             if (type.Equals("Expense"))
             {
-                Balance = PrevBalance - Balance;
+                Balance = prevBalance - amount;
 
             }
-            else Balance = PrevBalance+Balance;
-           
+            else Balance = prevBalance + amount;
+
         }
 
     }
