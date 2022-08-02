@@ -20,6 +20,61 @@
           "MoneyOrg.Server.dll": {}
         }
       },
+      "Blazorise/1.0.6": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Components": "6.0.7",
+          "Microsoft.AspNetCore.Components.Web": "6.0.7",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.1"
+        },
+        "runtime": {
+          "lib/net6.0/Blazorise.dll": {
+            "assemblyVersion": "1.0.6.0",
+            "fileVersion": "1.0.6.0"
+          }
+        }
+      },
+      "Blazorise.Bootstrap/1.0.6": {
+        "dependencies": {
+          "Blazorise": "1.0.6",
+          "Microsoft.AspNetCore.Components": "6.0.7",
+          "Microsoft.AspNetCore.Components.Web": "6.0.7",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.1"
+        },
+        "runtime": {
+          "lib/net6.0/Blazorise.Bootstrap.dll": {
+            "assemblyVersion": "1.0.6.0",
+            "fileVersion": "1.0.6.0"
+          }
+        }
+      },
+      "Blazorise.DataGrid/1.0.6": {
+        "dependencies": {
+          "Blazorise": "1.0.6",
+          "Microsoft.AspNetCore.Components": "6.0.7",
+          "Microsoft.AspNetCore.Components.Web": "6.0.7",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.1"
+        },
+        "runtime": {
+          "lib/net6.0/Blazorise.DataGrid.dll": {
+            "assemblyVersion": "1.0.6.0",
+            "fileVersion": "1.0.6.0"
+          }
+        }
+      },
+      "Blazorise.Icons.FontAwesome/1.0.6": {
+        "dependencies": {
+          "Blazorise": "1.0.6",
+          "Microsoft.AspNetCore.Components": "6.0.7",
+          "Microsoft.AspNetCore.Components.Web": "6.0.7",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.1"
+        },
+        "runtime": {
+          "lib/net6.0/Blazorise.Icons.FontAwesome.dll": {
+            "assemblyVersion": "1.0.6.0",
+            "fileVersion": "1.0.6.0"
+          }
+        }
+      },
       "Humanizer.Core/2.8.26": {
         "runtime": {
           "lib/netstandard2.0/Humanizer.dll": {
@@ -2382,6 +2437,9 @@
       },
       "MoneyOrg.Client/1.0.0": {
         "dependencies": {
+          "Blazorise.Bootstrap": "1.0.6",
+          "Blazorise.DataGrid": "1.0.6",
+          "Blazorise.Icons.FontAwesome": "1.0.6",
           "Microsoft.AspNetCore.Components.WebAssembly": "6.0.7",
           "MoneyOrg.Shared": "1.0.0"
         },
@@ -2401,6 +2459,34 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Blazorise/1.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Y3FcAaN4VKoUC4joKopQBeugDlLWOLXcDC8GeVsuChnUNdBOhH1k1TddNRRa2iTEYGvt8D8WFMBFbke9FRT+NA==",
+      "path": "blazorise/1.0.6",
+      "hashPath": "blazorise.1.0.6.nupkg.sha512"
+    },
+    "Blazorise.Bootstrap/1.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-miGNJTMhOA8s56K9CJRnQw9+mNuY14Ppr+iqF58O75hsg0k6IyhLwcpnf736N3goyYy2cqFMSlqae0Y1y2TpEQ==",
+      "path": "blazorise.bootstrap/1.0.6",
+      "hashPath": "blazorise.bootstrap.1.0.6.nupkg.sha512"
+    },
+    "Blazorise.DataGrid/1.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-z3zFRNxCsNOTxR2/7cbHkQb8VJb9W+iuQO9bUSV+BYh0OckthS/yF59LwQHN3MPYgvv1uASpk6B2h7qw2ykQjg==",
+      "path": "blazorise.datagrid/1.0.6",
+      "hashPath": "blazorise.datagrid.1.0.6.nupkg.sha512"
+    },
+    "Blazorise.Icons.FontAwesome/1.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EHGP5tk2TPlkRo8ofkasQ3Q9XPfbWn/lAnQVK848GgVTZOGZPMyFjiTS0FD78EDh/z5t2tpjWS9dB6PhFgzYhA==",
+      "path": "blazorise.icons.fontawesome/1.0.6",
+      "hashPath": "blazorise.icons.fontawesome.1.0.6.nupkg.sha512"
     },
     "Humanizer.Core/2.8.26": {
       "type": "package",

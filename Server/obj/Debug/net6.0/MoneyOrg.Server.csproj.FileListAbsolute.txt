@@ -279,3 +279,7 @@ C:\Users\Mahbub\Documents\code\C#\MoneyOrg\Server\bin\Debug\net6.0\runtimes\unix
 C:\Users\Mahbub\Documents\code\C#\MoneyOrg\Server\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
 C:\Users\Mahbub\Documents\code\C#\MoneyOrg\Server\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\Mahbub\Documents\code\C#\MoneyOrg\Server\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\Mahbub\Documents\code\C#\MoneyOrg\Server\bin\Debug\net6.0\Blazorise.dll
+C:\Users\Mahbub\Documents\code\C#\MoneyOrg\Server\bin\Debug\net6.0\Blazorise.Bootstrap.dll
+C:\Users\Mahbub\Documents\code\C#\MoneyOrg\Server\bin\Debug\net6.0\Blazorise.Icons.FontAwesome.dll
+C:\Users\Mahbub\Documents\code\C#\MoneyOrg\Server\bin\Debug\net6.0\Blazorise.DataGrid.dll

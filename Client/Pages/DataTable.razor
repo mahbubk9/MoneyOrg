@@ -1,0 +1,77 @@
+﻿@page "/DataGrid"
+@using Blazorise
+@using Blazorise.DataGrid
+@inject HttpClient Http
+<Field>
+    <FieldLabel>
+        Edit Mode
+    </FieldLabel>
+    <FieldBody>
+        <Select @bind-SelectedValue="@editMode">
+            <SelectItem Value="DataGridEditMode.Form">Form</SelectItem>
+            <SelectItem Value="DataGridEditMode.Inline">Inline</SelectItem>
+            <SelectItem Value="DataGridEditMode.Popup">Popup</SelectItem>
+        </Select>
+    </FieldBody>
+</Field>
+
+<DataGrid TItem="IncExp"
+          Data="@incomeExpenseList"
+          @bind-SelectedRow="@selectedIncExp"
+          Editable
+          Responsive
+          ShowPager
+          CommandMode="DataGridCommandMode.ButtonRow"
+          EditMode="editMode">
+    <DataGridColumns>
+        <DataGridCommandColumn  NewCommandAllowed="false" EditCommandAllowed="false" DeleteCommandAllowed="false"  >
+            <SaveCommandTemplate>
+                <Button ElementId="btnSave" Type="ButtonType.Submit" PreventDefaultOnSubmit Color="Color.Primary" Clicked="@context.Clicked">@context.LocalizationString</Button>
+            </SaveCommandTemplate>
+            <CancelCommandTemplate>
+                <Button ElementId="btnCancel" Color="Color.Secondary" Clicked="@context.Clicked">@context.LocalizationString</Button>
+            </CancelCommandTemplate>
+        </DataGridCommandColumn>
+        <DataGridColumn Field="@nameof(IncExp.Id)" Caption="#" Sortable="false" Editable="false" />
+        <DataGridColumn Field="@nameof(IncExp.Time)" Caption="Time" Editable />
+        <DataGridColumn Field="@nameof(IncExp.Type)" Caption="Type" Editable />
+        <DataGridColumn Field="@nameof(IncExp.SubType)" Caption="Sub Type" Editable />
+        <DataGridColumn Field="@nameof(IncExp.Amount)" Caption="Amount" Editable />
+        <DataGridColumn Field="@nameof(IncExp.PrevBalance)" Caption="Previous Balance" Editable />
+        <DataGridColumn Field="@nameof(IncExp.Balance)" Caption="Balance" DisplayFormat="{0:C}" DisplayFormatProvider="@System.Globalization.CultureInfo.GetCultureInfo("fr-FR")" Editable>
+            <EditTemplate>
+                <NumericEdit TValue="decimal" Value="@((decimal)context.CellValue)" ValueChanged="@( v => context.CellValue = v)" />
+            </EditTemplate>
+        </DataGridColumn>
+    </DataGridColumns>
+    <ButtonRowTemplate>
+        <Button Color="Color.Success" Clicked="context.NewCommand.Clicked">New</Button>
+        <Button Color="Color.Primary" Disabled="(selectedEmployee is null)" Clicked="context.EditCommand.Clicked">Edit</Button>
+        <Button Color="Color.Danger" Disabled="(selectedEmployee is null)" Clicked="context.DeleteCommand.Clicked">Delete</Button>
+        <Button Color="Color.Link" Clicked="context.ClearFilterCommand.Clicked">Clear Filter</Button>
+    </ButtonRowTemplate>
+</DataGrid>
+
+
+
+
+
+
+
+
+@code{
+   
+    [Inject]
+    public IncExp IncExpData { get; set; }
+    private List<IncExp> incomeExpenseList;
+    private IncExp selectedIncExp;
+    private DataGridEditMode editMode = DataGridEditMode.Form;
+
+    protected override async Task OnInitializedAsync()
+    {
+        //incomeExpenseList = await IncExpData.GetDataAsync();
+        incomeExpenseList = await Http
+      .GetFromJsonAsync<IncExp[]>("IncomeExpense");
+        await base.OnInitializedAsync();
+    }
+}

@@ -53,6 +53,10 @@
               "target": "Package",
               "version": "[1.0.6, )"
             },
+            "Blazorise.DataGrid": {
+              "target": "Package",
+              "version": "[1.0.6, )"
+            },
             "Blazorise.Icons.FontAwesome": {
               "target": "Package",
               "version": "[1.0.6, )"
