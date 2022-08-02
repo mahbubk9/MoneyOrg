@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "zfKwV+bbM7dh5532172yaOObgjtzIA1O+Ep1sSKb1n7Anpe1KDVEarvIUFUJoqktqxIxcNF69fEVuh71kDguRQ==",
+  "dgSpecHash": "XwbYLgyQObhVrlLk+Lrd+62fOUoVEaieHcLXNCIBP0uXxP59/AIdYUEejwfpLStt51blTHR6XP9xyO385DiFwQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Mahbub\\Documents\\code\\C#\\MoneyOrg\\Server\\MoneyOrg.Server.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Mahbub\\.nuget\\packages\\blazorise\\1.0.6\\blazorise.1.0.6.nupkg.sha512",
+    "C:\\Users\\Mahbub\\.nuget\\packages\\blazorise.bootstrap\\1.0.6\\blazorise.bootstrap.1.0.6.nupkg.sha512",
+    "C:\\Users\\Mahbub\\.nuget\\packages\\blazorise.icons.fontawesome\\1.0.6\\blazorise.icons.fontawesome.1.0.6.nupkg.sha512",
     "C:\\Users\\Mahbub\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Mahbub\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
     "C:\\Users\\Mahbub\\.nuget\\packages\\messagepack.annotations\\2.1.152\\messagepack.annotations.2.1.152.nupkg.sha512",

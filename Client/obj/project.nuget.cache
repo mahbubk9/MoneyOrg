@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "cQKzN+D4/oBhkQq2MGo/rILGH2ezbD+z9oIAUYlmfQhqSpoD+aLGS1/KRB2Rsn6pjdS3uAosKUtsGjRKhY5Q4Q==",
+  "dgSpecHash": "w/HEQjlSQOum796hNA6/c7daGQEntXqO7Z1wshqPI9utF+3PHBmZS03IGjSRaMGc3fVKu6bA0+KJfFcl7EVPDw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Mahbub\\Documents\\code\\C#\\MoneyOrg\\Client\\MoneyOrg.Client.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Mahbub\\.nuget\\packages\\blazorise\\1.0.6\\blazorise.1.0.6.nupkg.sha512",
+    "C:\\Users\\Mahbub\\.nuget\\packages\\blazorise.bootstrap\\1.0.6\\blazorise.bootstrap.1.0.6.nupkg.sha512",
+    "C:\\Users\\Mahbub\\.nuget\\packages\\blazorise.icons.fontawesome\\1.0.6\\blazorise.icons.fontawesome.1.0.6.nupkg.sha512",
     "C:\\Users\\Mahbub\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.7\\microsoft.aspnetcore.authorization.6.0.7.nupkg.sha512",
     "C:\\Users\\Mahbub\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.7\\microsoft.aspnetcore.components.6.0.7.nupkg.sha512",
     "C:\\Users\\Mahbub\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\6.0.7\\microsoft.aspnetcore.components.analyzers.6.0.7.nupkg.sha512",

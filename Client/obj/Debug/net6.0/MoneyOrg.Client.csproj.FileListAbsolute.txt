@@ -821,3 +821,15 @@ C:\Users\Mahbub\Documents\code\C#\MoneyOrg\Client\obj\Debug\net6.0\build-gz\M9AA
 C:\Users\Mahbub\Documents\code\C#\MoneyOrg\Client\obj\Debug\net6.0\build-gz\2hiu1+tc.gz
 C:\Users\Mahbub\Documents\code\C#\MoneyOrg\Client\obj\Debug\net6.0\build-gz\euqebTy0.gz
 C:\Users\Mahbub\Documents\code\C#\MoneyOrg\Client\obj\Debug\net6.0\build-gz\2ztUuSp9.gz
+C:\Users\Mahbub\Documents\code\C#\MoneyOrg\Client\bin\Debug\net6.0\wwwroot\_framework\Blazorise.Bootstrap.dll
+C:\Users\Mahbub\Documents\code\C#\MoneyOrg\Client\bin\Debug\net6.0\wwwroot\_framework\Blazorise.dll
+C:\Users\Mahbub\Documents\code\C#\MoneyOrg\Client\bin\Debug\net6.0\wwwroot\_framework\Blazorise.Icons.FontAwesome.dll
+C:\Users\Mahbub\Documents\code\C#\MoneyOrg\Client\bin\Debug\net6.0\wwwroot\_framework\Blazorise.Bootstrap.dll.gz
+C:\Users\Mahbub\Documents\code\C#\MoneyOrg\Client\bin\Debug\net6.0\wwwroot\_framework\Blazorise.dll.gz
+C:\Users\Mahbub\Documents\code\C#\MoneyOrg\Client\bin\Debug\net6.0\wwwroot\_framework\Blazorise.Icons.FontAwesome.dll.gz
+C:\Users\Mahbub\Documents\code\C#\MoneyOrg\Client\bin\Debug\net6.0\Blazorise.dll
+C:\Users\Mahbub\Documents\code\C#\MoneyOrg\Client\bin\Debug\net6.0\Blazorise.Bootstrap.dll
+C:\Users\Mahbub\Documents\code\C#\MoneyOrg\Client\bin\Debug\net6.0\Blazorise.Icons.FontAwesome.dll
+C:\Users\Mahbub\Documents\code\C#\MoneyOrg\Client\obj\Debug\net6.0\build-gz\MTVZHiHb.gz
+C:\Users\Mahbub\Documents\code\C#\MoneyOrg\Client\obj\Debug\net6.0\build-gz\HglVNzRc.gz
+C:\Users\Mahbub\Documents\code\C#\MoneyOrg\Client\obj\Debug\net6.0\build-gz\Wt1LiFoO.gz
