@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "vV8jHww6P1/LI+SqTqUpOr6s/8cmk+PpsVaFf89SU2Y=",
+  "Hash": "O4v0A6d1bWNlbJ07FLAjBjI/OGW+m7PdMFFLVWsfikc=",
   "Source": "MoneyOrg.Server",
   "BasePath": "_content/MoneyOrg.Server",
   "Mode": "Default",
@@ -707,6 +707,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Mahbub\\.nuget\\packages\\blazorise.bootstrap\\1.0.6\\lib\\net6.0\\Blazorise.Bootstrap.dll"
+    },
+    {
+      "Identity": "C:\\Users\\Mahbub\\Documents\\code\\C#\\MoneyOrg\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Blazorise.DataGrid.dll",
+      "SourceId": "MoneyOrg.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\Mahbub\\Documents\\code\\C#\\MoneyOrg\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Blazorise.DataGrid.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Mahbub\\.nuget\\packages\\blazorise.datagrid\\1.0.6\\lib\\net6.0\\Blazorise.DataGrid.dll"
     },
     {
       "Identity": "C:\\Users\\Mahbub\\Documents\\code\\C#\\MoneyOrg\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Blazorise.dll",
@@ -4396,6 +4413,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Mahbub\\Documents\\code\\C#\\MoneyOrg\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll"
+    },
+    {
+      "Identity": "C:\\Users\\Mahbub\\Documents\\code\\C#\\MoneyOrg\\Client\\obj\\Debug\\net6.0\\build-gz\\2yJU1isa.gz",
+      "SourceId": "MoneyOrg.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\Mahbub\\Documents\\code\\C#\\MoneyOrg\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Blazorise.DataGrid.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\Mahbub\\Documents\\code\\C#\\MoneyOrg\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Blazorise.DataGrid.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Mahbub\\Documents\\code\\C#\\MoneyOrg\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Blazorise.DataGrid.dll"
     },
     {
       "Identity": "C:\\Users\\Mahbub\\Documents\\code\\C#\\MoneyOrg\\Client\\obj\\Debug\\net6.0\\build-gz\\2ztUuSp9.gz",

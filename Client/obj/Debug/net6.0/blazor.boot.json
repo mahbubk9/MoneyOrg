@@ -9,6 +9,7 @@
     "assembly": {
       "Blazorise.dll": "sha256-mQtDb0s9puCkia7pRk9qA2t3eHBiQWFuzDkc5BI1VGk=",
       "Blazorise.Bootstrap.dll": "sha256-6lkVbojI6o1UsMppv3sWgnHw5OZRxqFpTvdxZpW3qk4=",
+      "Blazorise.DataGrid.dll": "sha256-4aWcTCXX2dc3ymjSOF3aDZ5saQDwijLlEZjohdvFNdg=",
       "Blazorise.Icons.FontAwesome.dll": "sha256-847f0iOoZKFGPP5+kv\/XuRp\/H8I7RLbh7GqYPoxNCaA=",
       "Microsoft.AspNetCore.Authorization.dll": "sha256-hSXzdQFPBtfxBs3B2TFaykHyx2Mgqh21anN\/Gx+VKSo=",
       "Microsoft.AspNetCore.Components.dll": "sha256-BikLdQx36rYsSVwqNFVsuDwW4Soedlr\/SnAFSy5tjW8=",
@@ -199,15 +200,15 @@
       "mscorlib.dll": "sha256-wmk56X5dbt29rrFZKEFpOFjotkZA+JSxA4fqkgmBsOU=",
       "netstandard.dll": "sha256-CvlfDmNgFRYT7l\/xZKu91FlbTFyLG\/5cH7YX63k9ghE=",
       "System.Private.CoreLib.dll": "sha256-aF4imeOpA59D6F5qCLabzkeY7MvRZzNYzavhB\/bdxvM=",
-      "MoneyOrg.Shared.dll": "sha256-PWl3wTWNvWhoGEh8hCgGdvz1q4yQzQ2fPwc14xpY62A=",
-      "MoneyOrg.Client.dll": "sha256-fpOlOb0GSrAFrOWRao6kC+Gev51z1lTO8w1YbqlqWU0="
+      "MoneyOrg.Shared.dll": "sha256-Z5mTygryt8oNqbflBz1Lob\/y33INeiWXCjgwrEOP\/o0=",
+      "MoneyOrg.Client.dll": "sha256-XXR9SCBjQI1++4YMIqh7bJ6jowle+lPOOMpueX0\/66Q="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "MoneyOrg.Shared.pdb": "sha256-z4BgB3NJGgRT8zoaOFlMraE+qpwCPFM4AMjvOeljK\/Q=",
-      "MoneyOrg.Client.pdb": "sha256-CsamY89qDoAMjLzyeqPdGMqFVWp5tvN\/rcfY3SsuojE="
+      "MoneyOrg.Shared.pdb": "sha256-d\/nUIBlOR8+jorO5A+l0dlsYpu4dQkYIctN4bfigtXc=",
+      "MoneyOrg.Client.pdb": "sha256-5fMJJHE72Z+g8E1k6guVVRBAdNH\/\/FMWgtOdQJNL8gM="
     },
     "runtime": {
       "dotnet.6.0.7.31iaa5g5mz.js": "sha256-pvJcJ6jtDSfxgXm03QYRTm4aAi9PSzMSJODReHtvASY=",

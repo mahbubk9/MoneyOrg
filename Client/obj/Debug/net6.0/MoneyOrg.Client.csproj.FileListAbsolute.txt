@@ -833,3 +833,7 @@ C:\Users\Mahbub\Documents\code\C#\MoneyOrg\Client\bin\Debug\net6.0\Blazorise.Ico
 C:\Users\Mahbub\Documents\code\C#\MoneyOrg\Client\obj\Debug\net6.0\build-gz\MTVZHiHb.gz
 C:\Users\Mahbub\Documents\code\C#\MoneyOrg\Client\obj\Debug\net6.0\build-gz\HglVNzRc.gz
 C:\Users\Mahbub\Documents\code\C#\MoneyOrg\Client\obj\Debug\net6.0\build-gz\Wt1LiFoO.gz
+C:\Users\Mahbub\Documents\code\C#\MoneyOrg\Client\bin\Debug\net6.0\wwwroot\_framework\Blazorise.DataGrid.dll
+C:\Users\Mahbub\Documents\code\C#\MoneyOrg\Client\bin\Debug\net6.0\wwwroot\_framework\Blazorise.DataGrid.dll.gz
+C:\Users\Mahbub\Documents\code\C#\MoneyOrg\Client\bin\Debug\net6.0\Blazorise.DataGrid.dll
+C:\Users\Mahbub\Documents\code\C#\MoneyOrg\Client\obj\Debug\net6.0\build-gz\2yJU1isa.gz

@@ -2,7 +2,8 @@
 @using Blazorise
 @using Blazorise.DataGrid
 @inject HttpClient Http
-<Field>
+
+@*<Field>
     <FieldLabel>
         Edit Mode
     </FieldLabel>
@@ -13,7 +14,7 @@
             <SelectItem Value="DataGridEditMode.Popup">Popup</SelectItem>
         </Select>
     </FieldBody>
-</Field>
+</Field>*@
 
 <DataGrid TItem="IncExp"
           Data="@incomeExpenseList"
@@ -32,7 +33,7 @@
                 <Button ElementId="btnCancel" Color="Color.Secondary" Clicked="@context.Clicked">@context.LocalizationString</Button>
             </CancelCommandTemplate>
         </DataGridCommandColumn>
-        <DataGridColumn Field="@nameof(IncExp.Id)" Caption="#" Sortable="false" Editable="false" />
+        <DataGridColumn Field="@nameof(IncExp.Id)" Caption="ID" Sortable="false"  />
         <DataGridColumn Field="@nameof(IncExp.Time)" Caption="Time" Editable />
         <DataGridColumn Field="@nameof(IncExp.Type)" Caption="Type" Editable />
         <DataGridColumn Field="@nameof(IncExp.SubType)" Caption="Sub Type" Editable />
@@ -46,8 +47,8 @@
     </DataGridColumns>
     <ButtonRowTemplate>
         <Button Color="Color.Success" Clicked="context.NewCommand.Clicked">New</Button>
-        <Button Color="Color.Primary" Disabled="(selectedEmployee is null)" Clicked="context.EditCommand.Clicked">Edit</Button>
-        <Button Color="Color.Danger" Disabled="(selectedEmployee is null)" Clicked="context.DeleteCommand.Clicked">Delete</Button>
+        <Button Color="Color.Primary" Disabled="(selectedIncExp is null)" Clicked="context.EditCommand.Clicked">Edit</Button>
+        <Button Color="Color.Danger" Disabled="(selectedIncExp is null)" Clicked="context.DeleteCommand.Clicked">Delete</Button>
         <Button Color="Color.Link" Clicked="context.ClearFilterCommand.Clicked">Clear Filter</Button>
     </ButtonRowTemplate>
 </DataGrid>
@@ -60,9 +61,7 @@
 
 
 @code{
-   
-    [Inject]
-    public IncExp IncExpData { get; set; }
+    public IncExp IncExpData{ get; set; }
     private List<IncExp> incomeExpenseList;
     private IncExp selectedIncExp;
     private DataGridEditMode editMode = DataGridEditMode.Form;
@@ -70,8 +69,15 @@
     protected override async Task OnInitializedAsync()
     {
         //incomeExpenseList = await IncExpData.GetDataAsync();
-        incomeExpenseList = await Http
-      .GetFromJsonAsync<IncExp[]>("IncomeExpense");
+        var result = await Http
+        .GetFromJsonAsync<IncExp>("/IncomeExpense");
         await base.OnInitializedAsync();
+        
+
     }
-}
+    /*foreach  (IncExp item : result)
+    {
+         incomeExpenseList.Add(item);
+    }*/
+        
+    }
