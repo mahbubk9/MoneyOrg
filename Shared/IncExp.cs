@@ -13,6 +13,8 @@
 
         public DateTime Time { get; set; }
 
+        public IncExp[] IncExpData { get; set; }
+
         /*public enum Type
         {
             Employment,

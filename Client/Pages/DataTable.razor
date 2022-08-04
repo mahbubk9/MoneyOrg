@@ -17,7 +17,7 @@
 </Field>*@
 
 <DataGrid TItem="IncExp"
-          Data="@incomeExpenseList"
+          Data="@IncExpData"
           @bind-SelectedRow="@selectedIncExp"
           Editable
           Responsive
@@ -61,23 +61,20 @@
 
 
 @code{
-    public IncExp IncExpData{ get; set; }
-    private List<IncExp> incomeExpenseList;
-    private IncExp selectedIncExp;
-    private DataGridEditMode editMode = DataGridEditMode.Form;
+    public IncExp[]? IncExpData { get;set;}
+    //private List <IncExp> incomeExpenseList;
+    private IncExp? selectedIncExp;
+    private DataGridEditMode editMode = DataGridEditMode.Form; 
 
     protected override async Task OnInitializedAsync()
     {
-        //incomeExpenseList = await IncExpData.GetDataAsync();
-        var result = await Http
-        .GetFromJsonAsync<IncExp>("/IncomeExpense");
-        await base.OnInitializedAsync();
         
+        IncExpData = await Http
+        .GetFromJsonAsync<IncExp[]>("/IncomeExpense");
+        await base.OnInitializedAsync();
+        Console.WriteLine(IncExpData);
+
 
     }
-    /*foreach  (IncExp item : result)
-    {
-         incomeExpenseList.Add(item);
-    }*/
-        
+    
     }
