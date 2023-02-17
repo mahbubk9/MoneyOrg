@@ -11,6 +11,7 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("03fb90f6-61d0-4bd3-9dcb-fcd4188bdb01")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("MoneyOrg.Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
