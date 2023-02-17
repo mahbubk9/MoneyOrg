@@ -13,7 +13,7 @@ namespace MoneyOrg.Server
         {
             base.OnModelCreating(modelBuilder);
             var incExpEntity = modelBuilder.Entity<IncExp>();
-            incExpEntity.HasKey(IncExp => IncExp.Id);
+                incExpEntity.HasKey(IncExp => IncExp.Id);
 
         }
 

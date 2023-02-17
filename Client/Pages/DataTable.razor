@@ -1,4 +1,4 @@
-﻿@page "/DataGrid"
+﻿@page "/DataTable"
 @using Blazorise
 @using Blazorise.DataGrid
 @inject HttpClient Http
@@ -17,7 +17,7 @@
 </Field>*@
 
 <DataGrid TItem="IncExp"
-          Data="@IncExpData"
+          Data="@IncExps"
           @bind-SelectedRow="@selectedIncExp"
           Editable
           Responsive
@@ -61,18 +61,20 @@
 
 
 @code{
-    public IncExp[]? IncExpData { get;set;}
-    //private List <IncExp> incomeExpenseList;
+    //public IncExp IncExpData;
+
+    public List<IncExp?> IncExps;
+
     private IncExp? selectedIncExp;
     private DataGridEditMode editMode = DataGridEditMode.Form; 
 
     protected override async Task OnInitializedAsync()
     {
         
-        IncExpData = await Http
-        .GetFromJsonAsync<IncExp[]>("/IncomeExpense");
+        IncExps = await Http
+        .GetFromJsonAsync<List<IncExp?>>("/IncomeExpense");
         await base.OnInitializedAsync();
-        Console.WriteLine(IncExpData);
+        Console.WriteLine(IncExps);
 
 
     }

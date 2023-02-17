@@ -12,41 +12,44 @@ namespace MoneyOrg.Server.Controllers
         public IncExpController(MoneyOrgDbContext db) => this.db = db;
 
 
+        /*
+                private static readonly List<IncExp> IncomeExpense = new List<IncExp>
+        {
+        new IncExp(001,DateTime.Now, "Income","Employment",5000.0, 10000.0 ),
+        new IncExp(002,DateTime.Now, "Expense","Utility",15000.0, 100.0 ),
+        new IncExp(003,DateTime.Now, "Expense","Grocery",14900.0, 100.0 ),
 
-        private static readonly List<IncExp> IncomeExpense = new List<IncExp>
-{
-new IncExp(001,DateTime.Now, "Income","Employment",5000.0, 10000.0 ),
-new IncExp(002,DateTime.Now, "Expense","Utility",15000.0, 100.0 ),
-new IncExp(003,DateTime.Now, "Expense","Grocery",14900.0, 100.0 ),
 
 
+        };
+        */
 
-};
-
-        
         [HttpGet("/IncomeExpense")]
         public IQueryable<IncExp> GetIncExp()
-        {
-            return db.IncomeExpense;
-        }
+
+            => this.db.IncomeExpense;
+
+
 
         [HttpPost("/IncomeExpense")]
         public IActionResult InsertIncExp([FromBody] IncExp data)
         {
             db.IncomeExpense?.Add(data);
             db.SaveChanges();
-            return Created($"IncomeExpense/{data.Id}", IncomeExpense);
+            return Created($"IncomeExpense/{data.Id}", data);
+
         }
+        
+
+
+
+
     }
-
-
-
-
-
-
-
-
-
-
 }
+
+
+
+
+
+
 

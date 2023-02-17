@@ -283,3 +283,4 @@ C:\Users\Mahbub\Documents\code\C#\MoneyOrg\Server\bin\Debug\net6.0\Blazorise.dll
 C:\Users\Mahbub\Documents\code\C#\MoneyOrg\Server\bin\Debug\net6.0\Blazorise.Bootstrap.dll
 C:\Users\Mahbub\Documents\code\C#\MoneyOrg\Server\bin\Debug\net6.0\Blazorise.Icons.FontAwesome.dll
 C:\Users\Mahbub\Documents\code\C#\MoneyOrg\Server\bin\Debug\net6.0\Blazorise.DataGrid.dll
+C:\Users\Mahbub\Documents\code\C#\MoneyOrg\Server\bin\Debug\net6.0\libman.json
